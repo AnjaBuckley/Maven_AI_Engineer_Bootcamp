@@ -5,7 +5,7 @@ from pathlib import Path
 from openai import OpenAI
 
 SUMMARIZE_TEXTS = [
-    "FastAPI lets developers ship APIs quickly with Python type hints, automatic validation, and built-in docs.",
+    "This source provides a strategic roadmap for mastering n8n and AI automation by prioritizing foundational skills over flashy technology. The author emphasizes that learners must first master predictable, rule-based workflows and data structures like JSON and APIs before attempting to build complex AI agents. By understanding the transition curve of learning, students can navigate the inevitable periods of overwhelm and technical frustration. The guide also highlights the importance of process engineering, advising users to map out logic on paper to ensure high return on investment. Ultimately, the text encourages a shift from passive learning to active building, focusing on creating stable, scalable systems that solve real business problems.",
     "Our quarterly report showed revenue up 12 percent, churn down 3 percent, and a delayed migration due to staffing.",
 ]
 
