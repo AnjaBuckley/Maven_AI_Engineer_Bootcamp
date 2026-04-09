@@ -6,7 +6,7 @@ POST http://127.0.0.1:8000/summarize
 Content-Type: application/json
 
 {
-  "text": "FastAPI is a modern, high-performance Python framework for building APIs quickly with automatic docs and validation.",
+  "text": "This source provides a strategic roadmap for mastering n8n and AI automation by prioritizing foundational skills over flashy technology. The author emphasizes that learners must first master predictable, rule-based workflows and data structures like JSON and APIs before attempting to build complex AI agents. By understanding the transition curve of learning, students can navigate the inevitable periods of overwhelm and technical frustration. The guide also highlights the importance of process engineering, advising users to map out logic on paper to ensure high return on investment. Ultimately, the text encourages a shift from passive learning to active building, focusing on creating stable, scalable systems that solve real business problems.",
   "max_length": 50,
   "prompt_version": "A"
 }
@@ -16,7 +16,7 @@ POST http://127.0.0.1:8000/summarize
 Content-Type: application/json
 
 {
-  "text": "FastAPI is a modern, high-performance Python framework for building APIs quickly with automatic docs and validation.",
+  "text": "This source provides a strategic roadmap for mastering n8n and AI automation by prioritizing foundational skills over flashy technology. The author emphasizes that learners must first master predictable, rule-based workflows and data structures like JSON and APIs before attempting to build complex AI agents. By understanding the transition curve of learning, students can navigate the inevitable periods of overwhelm and technical frustration. The guide also highlights the importance of process engineering, advising users to map out logic on paper to ensure high return on investment. Ultimately, the text encourages a shift from passive learning to active building, focusing on creating stable, scalable systems that solve real business problems.",
   "max_length": 50,
   "prompt_version": "B"
 }
@@ -26,7 +26,7 @@ POST http://127.0.0.1:8000/summarize
 Content-Type: application/json
 
 {
-  "text": "FastAPI is a modern, high-performance Python framework for building APIs quickly with automatic docs and validation.",
+  "text": "This source provides a strategic roadmap for mastering n8n and AI automation by prioritizing foundational skills over flashy technology. The author emphasizes that learners must first master predictable, rule-based workflows and data structures like JSON and APIs before attempting to build complex AI agents. By understanding the transition curve of learning, students can navigate the inevitable periods of overwhelm and technical frustration. The guide also highlights the importance of process engineering, advising users to map out logic on paper to ensure high return on investment. Ultimately, the text encourages a shift from passive learning to active building, focusing on creating stable, scalable systems that solve real business problems.",
   "max_length": 50,
   "prompt_version": "C"
 }
