@@ -65,13 +65,7 @@ curl -X POST http://127.0.0.1:8000/analyze-sentiment \
   }'
 ```
 
-## 3) Prompt experiments
 
-See `prompt_experiments.md` for:
-
-- 3 prompt variations per endpoint
-- example outputs
-- best prompt choice and rationale
 
 
 
