@@ -73,20 +73,6 @@ See `prompt_experiments.md` for:
 - example outputs
 - best prompt choice and rationale
 
-## 4) Deploy to Render (free tier)
 
-1. Push this project to a GitHub repository.
-2. In Render, create a new **Web Service** from that repo.
-3. Use:
-  - Build command: `pip install -r requirements.txt`
-  - Start command: `uvicorn main:app --host 0.0.0.0 --port $PORT`
-4. Add environment variable:
-  - `OPENAI_API_KEY=<your_api_key>`
-  - Optional: `OPENAI_MODEL=gpt-4o-mini`
-5. Deploy and confirm endpoint health:
-
-```bash
-curl https://YOUR_RENDER_URL/health
-```
 
 
