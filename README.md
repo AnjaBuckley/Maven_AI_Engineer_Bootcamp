@@ -89,10 +89,4 @@ See `prompt_experiments.md` for:
 curl https://YOUR_RENDER_URL/health
 ```
 
-## 5) Assignment submission checklist
-
-- Render URL + GitHub repo URL
-- Screenshot of all 3 endpoints working
-- Prompt experiments and winner rationale (already drafted in `prompt_experiments.md`)
-- 2-3 paragraph reflection from [https://www.promptingguide.ai/](https://www.promptingguide.ai/)
 
