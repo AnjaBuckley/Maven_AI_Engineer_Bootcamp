@@ -1,0 +1,59 @@
+### Health check
+GET http://127.0.0.1:8000/health
+
+### Summarize - prompt A
+POST http://127.0.0.1:8000/summarize
+Content-Type: application/json
+
+{
+  "text": "FastAPI is a modern, high-performance Python framework for building APIs quickly with automatic docs and validation.",
+  "max_length": 50,
+  "prompt_version": "A"
+}
+
+### Summarize - prompt B
+POST http://127.0.0.1:8000/summarize
+Content-Type: application/json
+
+{
+  "text": "FastAPI is a modern, high-performance Python framework for building APIs quickly with automatic docs and validation.",
+  "max_length": 50,
+  "prompt_version": "B"
+}
+
+### Summarize - prompt C
+POST http://127.0.0.1:8000/summarize
+Content-Type: application/json
+
+{
+  "text": "FastAPI is a modern, high-performance Python framework for building APIs quickly with automatic docs and validation.",
+  "max_length": 50,
+  "prompt_version": "C"
+}
+
+### Sentiment - prompt A
+POST http://127.0.0.1:8000/analyze-sentiment
+Content-Type: application/json
+
+{
+  "text": "I love how fast and reliable this app is now.",
+  "prompt_version": "A"
+}
+
+### Sentiment - prompt B
+POST http://127.0.0.1:8000/analyze-sentiment
+Content-Type: application/json
+
+{
+  "text": "I love how fast and reliable this app is now.",
+  "prompt_version": "B"
+}
+
+### Sentiment - prompt C
+POST http://127.0.0.1:8000/analyze-sentiment
+Content-Type: application/json
+
+{
+  "text": "I love how fast and reliable this app is now.",
+  "prompt_version": "C"
+}
